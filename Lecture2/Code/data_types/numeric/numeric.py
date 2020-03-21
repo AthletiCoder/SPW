@@ -5,6 +5,7 @@ d = 0.142
 e = 1 + 2j
 f = -5j
 
+# Comment/Uncomment the following
 
 print('Integer op: ', a+b)
 print('Float op: ', c-d)
