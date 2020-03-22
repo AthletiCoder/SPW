@@ -1,3 +1,5 @@
+# Comment/Uncomment the following
+
 sample_string = '10010'
 
 str_to_int = int(sample_string)

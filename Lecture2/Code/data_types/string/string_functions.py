@@ -1,4 +1,3 @@
-# Functions
 sample_string = 'Please be ready @ 5 pm!'
 print(len(sample_string)) # return length
 print(sample_string.count('e')) # return non overlapping count of parameter passed
