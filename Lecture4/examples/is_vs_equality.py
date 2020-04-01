@@ -6,25 +6,7 @@ if a == b:
 if a is b:
     print("a is b")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print("------")
-
 
 c = [1,2,3]
 if a == c:
