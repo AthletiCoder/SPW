@@ -15,17 +15,4 @@ Examples
 * 34 is not factored by 3, 5, or 7, so the result would be "34".
 '''
 
-inp = int(input())
-
 # Begin your code here to achieve results as explained above
-res = ""
-if not inp%3:
-    res+="Pling"
-if not inp%5:
-    res+="Plang"
-if not inp%7:
-    res+="Plong"
-if not res:
-    res=str(inp)
-
-print(res)
