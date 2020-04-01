@@ -5,7 +5,7 @@
 ## Usage of boolean expressions
 ## Indentation
 
-gems_of_iitb = ["Ajay","Akash","Aryan","Ayan","Bharani","Chidhambaram","Gaurav","Sridhar","Karan","Karthikeya","Krishna","Madhav","Prithviraj","Shrey","Vanshil","Vinayak"]
+gems_of_iitb = ["Ajay","Akash","New Name", "Aryan","Ayan","Bharani","Chidhambaram","Gaurav","Sridhar","Karan","Karthikeya","Krishna","Madhav","Prithviraj","Shrey","Vanshil","Vinayak"]
 while True:
     name = str(input())
     if name in ["Varun", "Harsh"]:
