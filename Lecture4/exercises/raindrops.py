@@ -23,7 +23,6 @@ num = int(input())
 output = ""
 if not num%3:
     output += "Pling"
-    # statement
 if not num%5:
     output += "Plang"
 if not num%7:
