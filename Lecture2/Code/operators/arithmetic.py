@@ -6,3 +6,6 @@ print('Multiplication: ',a*b)
 print('Division: ',a/b)
 print('Remainder: ',a%b)
 print('Exponential: ',a**b)
+
+# BODMAS
+# print((10/2)*6-5)

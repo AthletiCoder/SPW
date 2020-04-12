@@ -1,0 +1,18 @@
+1. Write a Python program which accepts complex number input in the form 'a+bj' and prints the real and imaginary part of it.
+Sample input: 10.453+777j
+Expected output : Real part is 10.453 and Imaginary part is 777j 
+
+(Hint: string functions)
+
+2. Run the following statements,
+print(True and True)
+print(True and False)
+print(True and 0)
+print(True and 1)
+print(False and True)
+print(0 and True)
+print(1 and True)
+print(1 and 5)
+
+What do you infer? Read https://stackoverflow.com/questions/49658308/how-does-the-logical-and-operator-work-with-integers-in-python
+(Thank you Madhav Joshi for bringing this question in last session)

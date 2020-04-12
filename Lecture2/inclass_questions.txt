@@ -1,0 +1,19 @@
+﻿DataTypes: Numeric and String
+15:25:00	 From  Shrey Patel : for print we use double quotes or single quote??
+15:32:48	 From  Harsh Bansal : # Understand Implicit and Explicit conversions.# Write the conversions explicitly for:#   print(a-c, b+e, d-f)
+15:32:50	 From  Prithviraj Chauhan : how complex is converted to int in explicit typecasting
+15:32:58	 From  Krishna Soni : int rounds off to nearest integer or lower integer
+15:34:37	 From  Vinayak : a converted from int to float ; b from int to complex; d from float to complex 
+15:35:58	 From  Madhav : How did the outputs come in different lines
+
+DataTypes: String continued, Operators
+15:13:57	 From  Shridhar N : 14
+15:17:51	 From  Shridhar N : excluding last character 
+15:21:59	 From  Madhav Joshi : -8:0
+15:22:12	 From  Karan Chincholy : -8:-1
+15:22:30	 From  Shridhar N : -8:
+15:22:47	 From  Shrey Patel : [-7:]
+15:22:49	 From  Krishna Soni : -7:
+15:39:11	 From  Shridhar N : difference between is and ==
+15:39:30	 From  Shrey Patel : data type?
+15:41:56	 From  Shridhar N : 2diff variable should have diff address
