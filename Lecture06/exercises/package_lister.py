@@ -29,3 +29,5 @@ print(py_files)
 # for each import line get the package/module name
 #   - separate the line into words and then extract the word which indicates package name
 #   - from matplotlib.pyplot import plot
+#   - import plot as plt
+#   - from lksjfl import sldkf as dsf
