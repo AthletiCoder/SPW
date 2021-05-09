@@ -3,13 +3,21 @@ Given a string as input print "Palindrome" if it's a palindrome and "Not palindr
 Examples of palindrome - abcdcba
 '''
 
+def hello():
+    print("Hello world")
+    hello()
+
+hello()
+
 def is_palindrome(inp_string):
-    # base case
+    '''
+    given string - 'abcba'
+    return True/False
+    '''
     if len(inp_string)<=1:
         return True
     else:
-        # recursion step
-        if inp_string[0] == inp_string[-1]:
+        if inp_string[0]==inp_string[-1]:
             return is_palindrome(inp_string[1:-1])
         else:
             return False

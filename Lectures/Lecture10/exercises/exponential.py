@@ -2,29 +2,21 @@ import time
 
 
 def eff_exp(a, b):
-    # return a^b
+    '''
+    a^b -> a^(b/2)*a^(b/2) otherwise a^(b/2)*a^(b/2)*a
+    '''
     if b==0:
         return 1
-    if b==1:
-        return a
     else:
-        # previously - f(
-        # a,b/2)*f(a,b-b/2)
-        if b%2==0:
-            out = eff_exp(a, b/2)
-            return out*out
-        else:
-            out = eff_exp(a, int(b/2))
-            return out*out*a
+        half = eff_exp(a, int(b/2))
+        return half*half*a if b%2==1 else half*half
 
 def norm_exp(a, b):
-    # return a^b
+    # base case
     if b==0:
         return 1
-    if b==1:
-        return a
-    else:
-        return norm_exp(a,int(b/2))*norm_exp(a,b-int(b/2))
+    # recursion step
+    return a*norm_exp(a, b-1)
 
 while True:
     a, b = int(input()), int(input())

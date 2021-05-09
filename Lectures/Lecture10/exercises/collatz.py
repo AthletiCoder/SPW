@@ -11,19 +11,22 @@ def count(n):
     '''
     returns the number of steps taken for n to reach 1
     '''
-    # base case
     if n==1:
-        return 1
-    # recursive step
+        return 0
     if n%2==0:
         return count(n/2)+1
     else:
         return count(3*n+1)+1
 
 import numpy as np
-import matplotlib.pyplot as plt
-x = np.arange(1,1001,1)
-y = list(map(count,x))
 
+x = np.arange(1,11)
+y = []
+for i in x:
+    y.append(count(i))
+
+y = np.array(y)
+
+import matplotlib.pyplot as plt
 plt.plot(x,y)
 plt.show()
